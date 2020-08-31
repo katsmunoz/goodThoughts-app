@@ -161,3 +161,37 @@
   outline: none;
   cursor: pointer;
 }
+
+/* Small screens */
+@media only screen and (max-width: 600px) {
+  .container {
+    background-image: url(assets/222359-P17GW9-71.jpg);
+    background-repeat: cover;
+  }
+
+  .app-wrapper {
+    background-color: #aab3c2;
+    width: 25%;
+    min-width: 300px;
+    height: 600px;
+    padding: 20px;
+    margin: 20px;
+  }
+
+  .header h1 {
+    font-size: 20px;
+  }
+
+  .task-input {
+    width: 100px;
+    min-width: 200px;
+    padding: 15px 10px 10px 20px;
+    margin-right: 10px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 15px;
+    color: #444;
+    border: 1px solid #bdf3fc;
+    outline: none;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+  }
+}
